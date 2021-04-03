@@ -20,7 +20,7 @@ jobs:
         run: touch ./out/.nojekyll
 
       # ensure custom domain setup
-      - run: echo "moyu.ooo" > CNAME
+      - run: echo "moyu.ooo" > ./out/CNAME
 
       - name: Deploy 🚀
         uses: peaceiris/actions-gh-pages@v3
