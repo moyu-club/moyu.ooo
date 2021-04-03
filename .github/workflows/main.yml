@@ -28,11 +28,15 @@ jobs:
         uses: actions/setup-node@v2
 
       - run: yarn install
-      - run: yarn run build
+      - run: yarn export
+
+      # resolve this bug, https://github.com/vercel/next.js/issues/2029
+      - name: add nojekyll
+        run: touch ./out/.nojekyll
 
       - name: Deploy 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: ./public
+          publish_dir: ./out
