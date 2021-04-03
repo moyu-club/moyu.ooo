@@ -10,15 +10,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-
         <h1 className={styles.title}>
           Welcome to <a href="https://join.moyu.ooo">Moyu Club</a>!
         </h1>
-
-        <p className={styles.description}>
-          Learn more in <a href="/about">here</a>
-        </p>
-
       </main>
 
       <footer className={styles.footer}>
