@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "lib": ["es6", "dom", "es2017"],
+    "strict": true,
+    "types": ["jest"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "composite": true,
+    "declarationMap": true,
+    "preserveSymlinks": true,
+    "jsx": "react",
+    "allowJs": true
+  },
+  "exclude": ["node_modules", "**/__tests__", "**/__test__"]
+}
