@@ -19,6 +19,7 @@ module.exports = {
     'plugin:jsx-a11y/recommended'
   ],
   rules: {
+    'react/react-in-jsx-scope': 'off',
     'jest/no-alias-methods': 'error',
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/explicit-function-return-type': 'off',
