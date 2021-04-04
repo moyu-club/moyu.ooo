@@ -4,5 +4,11 @@ tabWidth: 2
 # Use single quotes instead of double quotes.
 singleQuote: true
 
-# Print trailing commas wherever possible when multi-line (A single-line array, for example, never gets trailing commas).
-trailingComma: "none"
+# Print semicolons at the ends of statements.
+semi: true
+
+# prose wrap helps formatting Markdown and YAML
+proseWrap: always
+
+# vim-prettier has its own defaults, so we need to reset anything that doesn't match
+trailingComma: es5
