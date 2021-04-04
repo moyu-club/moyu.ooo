@@ -7,6 +7,7 @@ export default function Page() {
       <Head>
         <title>Moyu</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="manifest" href="/site.webmanifest"></link>
       </Head>
 
       <main className={styles.main}>
