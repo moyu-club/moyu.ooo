@@ -2,7 +2,7 @@
   "name": "moyu-club",
   "version": "0.0.0",
   "engines": {
-    "node": ">=14.15.5",
+    "node": ">=16.3.0",
     "yarn": "^1.22.0"
   },
   "private": true,
