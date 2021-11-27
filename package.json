@@ -10,6 +10,7 @@
   "description": "moyu.ooo site",
   "scripts": {
     "dev": "next dev",
+    "test": "jest --coverage",
     "build": "next build",
     "export": "next build && next export",
     "start": "next start",
